@@ -1,0 +1,81 @@
+/* --- Global Styles & Fonts --- */
+body {
+  background-color: #010409;
+  color: #e6edf3;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 40px 20px;
+}
+
+/* --- Main Container --- */
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* --- Card Styling --- */
+.card {
+  background-color: #0d1117;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  padding: 25px;
+  margin-top: 25px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* --- Profile Card --- */
+.profile-card {
+  text-align: center;
+}
+
+.profile-card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 2px solid #2f81f7;
+}
+
+/* --- Typography --- */
+h1 {
+  color: #e6edf3;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-size: 2em;
+}
+
+.status {
+  color: #8b949e;
+  margin-top: 0;
+}
+
+h2 {
+  color: #8b949e;
+  border-bottom: 1px solid #30363d;
+  padding-bottom: 10px;
+  font-weight: 600;
+  font-size: 1.1em;
+  letter-spacing: 0.5px;
+}
+
+/* --- List --- */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  padding: 8px 0;
+  border-bottom: 1px solid #1c2128;
+}
+
+/* --- Animation --- */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
